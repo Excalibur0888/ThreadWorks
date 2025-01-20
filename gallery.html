@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ThreadWorks India</title>
+    <meta name="description" content="Explore our gallery of finished works, production process, and workshops at ThreadWorks India. See the quality and craftsmanship of our products.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="logo">Thread<span>Works</span></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="products.html" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery-hero">
+            <div class="container">
+                <h1 class="page-title">Our Gallery</h1>
+                <p class="page-subtitle">Explore our works and creative process</p>
+            </div>
+        </section>
+
+        <section class="gallery-categories">
+            <div class="container">
+                <div class="categories-list">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="works">Finished Works</button>
+                    <button class="category-btn" data-category="process">Production Process</button>
+                    <button class="category-btn" data-category="workshops">Workshops</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="masonry-grid">
+                    <!-- Finished Works -->
+                    <div class="gallery-item" data-category="works">
+                        <img src="img/gallery1.jpg" alt="Finished dress">
+                        <div class="gallery-item-overlay">
+                            <h3>Evening Dress</h3>
+                            <p>Silk fabric with hand embroidery</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="works">
+                        <img src="img/gallery2.jpg" alt="Traditional outfit">
+                        <div class="gallery-item-overlay">
+                            <h3>Traditional Saree</h3>
+                            <p>Premium cotton with block printing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="works">
+                        <img src="img/gallery3.jpg" alt="Modern suit">
+                        <div class="gallery-item-overlay">
+                            <h3>Business Suit</h3>
+                            <p>Wool blend with detailed tailoring</p>
+                        </div>
+                    </div>
+
+                    <!-- Production Process -->
+                    <div class="gallery-item" data-category="process">
+                        <img src="img/gallery4.jpg" alt="Fabric cutting">
+                        <div class="gallery-item-overlay">
+                            <h3>Precision Cutting</h3>
+                            <p>Professional fabric cutting process</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="process">
+                        <img src="img/gallery5.jpg" alt="Sewing process">
+                        <div class="gallery-item-overlay">
+                            <h3>Expert Stitching</h3>
+                            <p>Detailed sewing work by our masters</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="process">
+                        <img src="img/gallery6.jpg" alt="Quality control">
+                        <div class="gallery-item-overlay">
+                            <h3>Quality Check</h3>
+                            <p>Thorough inspection of finished products</p>
+                        </div>
+                    </div>
+
+                    <!-- Workshops -->
+                    <div class="gallery-item" data-category="workshops">
+                        <img src="img/gallery7.jpg" alt="Sewing workshop">
+                        <div class="gallery-item-overlay">
+                            <h3>Basic Sewing Class</h3>
+                            <p>Learning fundamental techniques</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="workshops">
+                        <img src="img/gallery8.jpg" alt="Pattern making">
+                        <div class="gallery-item-overlay">
+                            <h3>Pattern Making</h3>
+                            <p>Professional pattern design workshop</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="workshops">
+                        <img src="img/gallery9.jpg" alt="Embroidery class">
+                        <div class="gallery-item-overlay">
+                            <h3>Embroidery Workshop</h3>
+                            <p>Advanced embroidery techniques</p>
+                        </div>
+                    </div>
+
+                    <!-- New Gallery Items -->
+                    <div class="gallery-item" data-category="works">
+                        <img src="img/gallery10.jpg" alt="Wedding Dress">
+                        <div class="gallery-item-overlay">
+                            <h3>Wedding Dress</h3>
+                            <p>Handmade lace wedding dress</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="process">
+                        <img src="img/gallery11.jpg" alt="Beading">
+                        <div class="gallery-item-overlay">
+                            <h3>Beadwork</h3>
+                            <p>Detailed beading process</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="workshops">
+                        <img src="img/gallery12.jpg" alt="Cutting Workshop">
+                        <div class="gallery-item-overlay">
+                            <h3>Cutting Workshop</h3>
+                            <p>Professional cutting techniques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-featured">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Most Popular Works</h2>
+                    <p>Our most loved creations and designs</p>
+                </div>
+                <div class="featured-grid">
+                    <div class="featured-item">
+                        <img src="img/featured1.jpg" alt="Couture Evening Dress">
+                        <div class="featured-overlay">
+                            <span class="featured-likes">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                3.2K
+                            </span>
+                            <h3>Couture Evening Dress</h3>
+                            <p>Handcrafted sequin gown</p>
+                        </div>
+                    </div>
+                    <div class="featured-item">
+                        <img src="img/featured2.jpg" alt="Modern Suit">
+                        <div class="featured-overlay">
+                            <span class="featured-likes">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                2.1K
+                            </span>
+                            <h3>Modern Suit</h3>
+                            <p>Contemporary business attire</p>
+                        </div>
+                    </div>
+                    <div class="featured-item">
+                        <img src="img/featured3.jpg" alt="Evening Gown">
+                        <div class="featured-overlay">
+                            <span class="featured-likes">
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                1.8K
+                            </span>
+                            <h3>Evening Gown</h3>
+                            <p>Elegant beaded evening dress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <svg class="stat-icon" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14h-2V9h-2V7h4v10z"/>
+                        </svg>
+                        <h3>500+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <svg class="stat-icon" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                        </svg>
+                        <h3>10K+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat-item">
+                        <svg class="stat-icon" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                        </svg>
+                        <h3>50+</h3>
+                        <p>Awards Won</p>
+                    </div>
+                    <div class="stat-item">
+                        <svg class="stat-icon" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm1-11h-2v3H8v2h3v3h2v-3h3v-2h-3V8z"/>
+                        </svg>
+                        <h3>100+</h3>
+                        <p>Active Projects</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Want to Learn More?</h2>
+                    <p>Join our workshops or request a custom order</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn">Contact Us</a>
+                        <a href="products.html" class="btn btn-outline">View Products</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+			<div class="footer__container container">
+					<div class="footer__column">
+							<h3 class="footer__title">About ThreadWorks</h3>
+							<p class="footer__about">We are dedicated to providing premium sewing supplies and materials to creative minds across India. Our commitment to quality and customer satisfaction drives everything we do.</p>
+					</div>
+					<div class="footer__column">
+							<h3 class="footer__title">Quick Links</h3>
+							<ul class="footer__list">
+									<li><a href="products.html" class="footer__link">Products</a></li>
+									<li><a href="about.html" class="footer__link">About Us</a></li>
+									<li><a href="gallery.html" class="footer__link">Gallery</a></li>
+									<li><a href="contact.html" class="footer__link">Contact</a></li>
+							</ul>
+					</div>
+					<div class="footer__column">
+							<h3 class="footer__title">Contact</h3>
+							<div class="footer__contact">
+									<p><a href="https://maps.app.goo.gl/FsgWrGQBeRUR9BAcA" target="_blank" rel="noopener noreferrer">F-5, Sector 22, Kopar Khairane, Navi Mumbai, Maharashtra 400709, India</a></p>
+									<p><a href="tel:+919291302841" class="footer__link">+91 92913-02841</a></p>
+									<p><a href="mailto:threadworks@gmail.com" class="footer__link">threadworks@gmail.com</a></p>
+							</div>
+					</div>
+					<div class="footer__column">
+							<h3 class="footer__title">Legal</h3>
+							<ul class="footer__list">
+									<li><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
+									<li><a href="terms-conditions.html" class="footer__link">Terms & Conditions</a></li>
+							</ul>
+					</div>
+			</div>
+			<div class="footer__bottom container">
+					<p>&copy; 2024 ThreadWorks India. All rights reserved.</p>
+			</div>
+	</footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
